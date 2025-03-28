@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - NoLimitNexus</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .error-container {
+            text-align: center;
+            padding: 100px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .error-code {
+            font-size: 8rem;
+            font-weight: 900;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            line-height: 1;
+        }
+        
+        .error-message {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: var(--dark-color);
+        }
+        
+        .error-description {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <h1 class="error-message">Page Not Found</h1>
+        <p class="error-description">The page you're looking for doesn't exist or has been moved.</p>
+        <a href="/" class="btn primary">Go Home</a>
+    </div>
+</body>
+</html>
